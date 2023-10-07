@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { AppLayout } from "@/components/layouts/app-layout";
 
 export default function IndexPage() {
-  return <div>DoIt</div>;
+  return (
+    <AppLayout>
+      <div>DoIt</div>
+    </AppLayout>
+  );
 }
