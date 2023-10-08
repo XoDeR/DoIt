@@ -17,7 +17,7 @@ export const TaskForm = ({
   };
 
   return (
-    <div>
+    <div className="w-60">
       <div>Task</div>
       <Editor
         content={task?.content ? JSON.parse(task.content) : ""}
